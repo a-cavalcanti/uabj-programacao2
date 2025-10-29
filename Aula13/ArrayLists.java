@@ -1,7 +1,7 @@
 package Aula13;
 
 import java.util.ArrayList;
-import java.lang.*;
+
 public class ArrayLists {
     public static void main(String[] args) {
         ArrayList<Integer> array = new ArrayList<>();
@@ -16,7 +16,6 @@ public class ArrayLists {
         System.out.println(index); // 2 
         
         array.remove(index);
-        array.
         
         System.out.println(array); // [1, 2]
         System.out.println(array.get(1)); // 2 
