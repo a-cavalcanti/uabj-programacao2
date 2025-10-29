@@ -3,16 +3,17 @@ package Aula14;
 import java.util.Scanner;
 
 public class ExemploMenu {
+
+    
     public static void main(String[] args) {
         int x = 0;
+        Scanner scan = new Scanner(System.in);
 
         while (x != 4) {
             System.out.println("Digite 1 para adicionar;");
             System.out.println("Digite 2 para listar;");
             System.out.println("Digite 3 para remover;");
-            System.out.println("Digite 4 para sair;");
-
-            Scanner scan = new Scanner(System.in);
+            System.out.println("Digite 4 para sair;");            
             x = scan.nextInt();
 
             switch (x) {
@@ -32,8 +33,8 @@ public class ExemploMenu {
                 default:
                     System.out.println("Opção inválida!");
                     break;
-            }
-            scan.close();
+            }            
         }
+        scan.close();
     }
 }
